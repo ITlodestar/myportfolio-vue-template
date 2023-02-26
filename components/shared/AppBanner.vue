@@ -43,7 +43,7 @@ export default {
           uppercase
         "
       >
-        Hi, Iam Stoman
+        Hi, I am Sean Becker
       </h1>
       <p
         class="
@@ -58,11 +58,11 @@ export default {
           text-gray-400
         "
       >
-        A Full-Stack Developer & Design Enthusiast
+        A Senior Frontend developer
       </p>
       <div class="flex justify-center sm:block">
         <a
-          href="/Stoman-Resume.pdf"
+          href="/myresume.pdf"
           download=""
           class="
             flex

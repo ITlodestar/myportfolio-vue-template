@@ -2,191 +2,144 @@
 import Button from "../reusable/Button.vue";
 export default {
   components: { Button },
-  data: () => {
-    return {
-      // @todo
-    };
+  data: () => ({
+    submitted: false,
+    FORM_ENDPOINT: "https://public.herotofu.com/v1/6c1a0cf0-b56e-11ed-aa6e-d1d3c574abee",
+  }),
+
+  methods: {
+    handleSubmit() {
+      setTimeout(() => {
+        this.submitted = true;
+      }, 100);
+    },
   },
+
+  // To Add Tailwind
 };
 </script>
 
 <template>
   <!-- Contact form -->
   <div class="w-full md:w-1/2">
-    <div
-      class="
-        leading-loose
-        max-w-xl
-        m-4
-        p-7
-        bg-secondary-light
-        dark:bg-secondary-dark
-        rounded-xl
-        shadow-xl
-        text-left
-      "
-    >
-      <p
-        class="
-          font-general-medium
-          text-primary-dark
-          dark:text-primary-light
-          text-2xl
-          mb-8
-        "
-      >
+    <div class="
+          leading-loose
+          max-w-xl
+          m-4
+          p-7
+          bg-secondary-light
+          dark:bg-secondary-dark
+          rounded-xl
+          shadow-xl
+          text-left
+        ">
+      <p class="
+            font-general-medium
+            text-primary-dark
+            dark:text-primary-light
+            text-2xl
+            mb-8
+          ">
         Contact Form
       </p>
-      <form
-        @submit="
-          (e) => {
-            e.preventDefault;
-          }
-        "
-        class="font-general-regular space-y-7"
-      >
+      <form :action="FORM_ENDPOINT" @submit="handleSubmit" method="POST" class="font-general-regular space-y-7">
         <div class="">
-          <label
-            class="block text-lg text-primary-dark dark:text-primary-light mb-2"
-            for="name"
-            >Full Name</label
-          >
-          <input
-            class="
-              w-full
-              px-5
-              py-2
-              border border-gray-300
-              dark:border-primary-dark
-              border-opacity-50
-              text-primary-dark
-              dark:text-secondary-light
-              bg-ternary-light
-              dark:bg-ternary-dark
-              rounded-md
-              shadow-sm
-              text-md
-            "
-            id="name"
-            name="name"
-            type="text"
-            required=""
-            placeholder="Your Name"
-            aria-label="Name"
-          />
+          <label class="block text-lg text-primary-dark dark:text-primary-light mb-2" for="name">Full Name</label>
+          <input class="
+                w-full
+                px-5
+                py-2
+                border border-gray-300
+                dark:border-primary-dark
+                border-opacity-50
+                text-primary-dark
+                dark:text-secondary-light
+                bg-ternary-light
+                dark:bg-ternary-dark
+                rounded-md
+                shadow-sm
+                text-md
+              " id="name" name="name" type="text" required="" placeholder="Your Name" aria-label="Name" />
         </div>
         <div class="mt-6">
-          <label
-            class="block text-lg text-primary-dark dark:text-primary-light mb-2"
-            for="email"
-            >Email</label
-          >
-          <input
-            class="
-              w-full
-              px-5
-              py-2
-              border border-gray-300
-              dark:border-primary-dark
-              border-opacity-50
-              text-primary-dark
-              dark:text-secondary-light
-              bg-ternary-light
-              dark:bg-ternary-dark
-              rounded-md
-              shadow-sm
-              text-md
-            "
-            id="email"
-            name="email"
-            type="text"
-            required=""
-            placeholder="Your Email"
-            aria-label="Email"
-          />
+          <label class="block text-lg text-primary-dark dark:text-primary-light mb-2" for="email">Email</label>
+          <input class="
+                w-full
+                px-5
+                py-2
+                border border-gray-300
+                dark:border-primary-dark
+                border-opacity-50
+                text-primary-dark
+                dark:text-secondary-light
+                bg-ternary-light
+                dark:bg-ternary-dark
+                rounded-md
+                shadow-sm
+                text-md
+              " id="email" name="email" type="text" required="" placeholder="Your Email" aria-label="Email" />
         </div>
+        <!-- <div class="mt-6">
+          <label class="block text-lg text-primary-dark dark:text-primary-light mb-2" for="subject">Subject</label>
+          <input class="
+                w-full
+                px-5
+                py-2
+                border border-gray-300
+                dark:border-primary-dark
+                border-opacity-50
+                text-primary-dark
+                dark:text-secondary-light
+                bg-ternary-light
+                dark:bg-ternary-dark
+                rounded-md
+                shadow-sm
+                text-md
+              " id="subject" name="subject" type="text" required="" placeholder="Subject" aria-label="Subject" />
+        </div> -->
+
         <div class="mt-6">
-          <label
-            class="block text-lg text-primary-dark dark:text-primary-light mb-2"
-            for="subject"
-            >Subject</label
-          >
-          <input
-            class="
-              w-full
-              px-5
-              py-2
-              border border-gray-300
-              dark:border-primary-dark
-              border-opacity-50
-              text-primary-dark
-              dark:text-secondary-light
-              bg-ternary-light
-              dark:bg-ternary-dark
-              rounded-md
-              shadow-sm
-              text-md
-            "
-            id="subject"
-            name="subject"
-            type="text"
-            required=""
-            placeholder="Subject"
-            aria-label="Subject"
-          />
+          <label class="block text-lg text-primary-dark dark:text-primary-light mb-2" for="message">Message</label>
+          <textarea class="
+                w-full
+                px-5
+                py-2
+                border border-gray-300
+                dark:border-primary-dark
+                border-opacity-50
+                text-primary-dark
+                dark:text-secondary-light
+                bg-ternary-light
+                dark:bg-ternary-dark
+                rounded-md
+                shadow-sm
+                text-md
+              " id="message" name="message" cols="14" rows="6" aria-label="Message"></textarea>
         </div>
 
         <div class="mt-6">
-          <label
-            class="block text-lg text-primary-dark dark:text-primary-light mb-2"
-            for="message"
-            >Message</label
-          >
-          <textarea
-            class="
-              w-full
-              px-5
-              py-2
-              border border-gray-300
-              dark:border-primary-dark
-              border-opacity-50
-              text-primary-dark
-              dark:text-secondary-light
-              bg-ternary-light
-              dark:bg-ternary-dark
-              rounded-md
-              shadow-sm
-              text-md
-            "
-            id="message"
-            name="message"
-            cols="14"
-            rows="6"
-            aria-label="Message"
-          ></textarea>
-        </div>
-
-        <div class="mt-6">
-          <Button
-            title="Send Message"
-            class="
-              px-4
-              py-2.5
-              text-white
-              tracking-wider
-              bg-indigo-500
-              hover:bg-indigo-600
-              focus:ring-1 focus:ring-indigo-900
-              rounded-lg
-              duration-500
-            "
-            type="submit"
-            aria-label="Send Message"
-          />
+          <Button title="Send Message" class="
+                px-4
+                py-2.5
+                text-white
+                tracking-wider
+                bg-indigo-500
+                hover:bg-indigo-600
+                focus:ring-1 focus:ring-indigo-900
+                rounded-lg
+                duration-500
+              " type="submit" aria-label="Send Message" />
         </div>
       </form>
+
+
+      <div v-if="submitted" class="text-center mt-10">
+        <h2 class="text-2xl">Thanks you!</h2>
+        <div class="text-md">We'll be in touch soon.</div>
+      </div>
     </div>
+
   </div>
-</template>
+</div></template>
 
 <style lang="scss" scoped></style>

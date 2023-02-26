@@ -90,34 +90,10 @@ export const state = () => ({
       socialSharings: [
         {
           id: uuidv4(),
-          name: "Twitter",
-          icon: "twitter",
-          url: "https://twitter.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Instagram",
-          icon: "instagram",
-          url: "https://instagram.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Facebook",
-          icon: "facebook",
-          url: "https://facebook.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "LinkedIn",
-          icon: "linkedin",
-          url: "https://linkedin.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "Youtube",
-          icon: "youtube",
-          url: "https://www.youtube.com/c/StomanStudio",
-        },
+          name: "Github",
+          icon: "github",
+          url: "https://twitter.com/",
+        }
       ],
     },
     {
@@ -206,34 +182,10 @@ export const state = () => ({
       socialSharings: [
         {
           id: uuidv4(),
-          name: "Twitter",
-          icon: "twitter",
-          url: "https://twitter.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Instagram",
-          icon: "instagram",
-          url: "https://instagram.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Facebook",
-          icon: "facebook",
-          url: "https://facebook.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "LinkedIn",
-          icon: "linkedin",
-          url: "https://linkedin.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "Youtube",
-          icon: "youtube",
-          url: "https://www.youtube.com/c/StomanStudio",
-        },
+          name: "Github",
+          icon: "github",
+          url: "https://twitter.com/",
+        }
       ],
     },
     {
@@ -322,34 +274,10 @@ export const state = () => ({
       socialSharings: [
         {
           id: uuidv4(),
-          name: "Twitter",
-          icon: "twitter",
-          url: "https://twitter.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Instagram",
-          icon: "instagram",
-          url: "https://instagram.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Facebook",
-          icon: "facebook",
-          url: "https://facebook.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "LinkedIn",
-          icon: "linkedin",
-          url: "https://linkedin.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "Youtube",
-          icon: "youtube",
-          url: "https://www.youtube.com/c/StomanStudio",
-        },
+          name: "Github",
+          icon: "github",
+          url: "https://twitter.com/",
+        }
       ],
     },
     {
@@ -438,34 +366,10 @@ export const state = () => ({
       socialSharings: [
         {
           id: uuidv4(),
-          name: "Twitter",
-          icon: "twitter",
-          url: "https://twitter.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Instagram",
-          icon: "instagram",
-          url: "https://instagram.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Facebook",
-          icon: "facebook",
-          url: "https://facebook.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "LinkedIn",
-          icon: "linkedin",
-          url: "https://linkedin.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "Youtube",
-          icon: "youtube",
-          url: "https://www.youtube.com/c/StomanStudio",
-        },
+          name: "Github",
+          icon: "github",
+          url: "https://twitter.com/",
+        }
       ],
     },
     {
@@ -554,34 +458,10 @@ export const state = () => ({
       socialSharings: [
         {
           id: uuidv4(),
-          name: "Twitter",
-          icon: "twitter",
-          url: "https://twitter.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Instagram",
-          icon: "instagram",
-          url: "https://instagram.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Facebook",
-          icon: "facebook",
-          url: "https://facebook.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "LinkedIn",
-          icon: "linkedin",
-          url: "https://linkedin.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "Youtube",
-          icon: "youtube",
-          url: "https://www.youtube.com/c/StomanStudio",
-        },
+          name: "Github",
+          icon: "github",
+          url: "https://twitter.com/",
+        }
       ],
     },
     {
@@ -670,34 +550,10 @@ export const state = () => ({
       socialSharings: [
         {
           id: uuidv4(),
-          name: "Twitter",
-          icon: "twitter",
-          url: "https://twitter.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Instagram",
-          icon: "instagram",
-          url: "https://instagram.com/realstoman",
-        },
-        {
-          id: uuidv4(),
-          name: "Facebook",
-          icon: "facebook",
-          url: "https://facebook.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "LinkedIn",
-          icon: "linkedin",
-          url: "https://linkedin.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "Youtube",
-          icon: "youtube",
-          url: "https://www.youtube.com/c/StomanStudio",
-        },
+          name: "Github",
+          icon: "github",
+          url: "https://twitter.com/",
+        }
       ],
     },
   ],
@@ -747,12 +603,36 @@ export const state = () => ({
   aboutMe: [
     {
       id: uuidv4(),
-      bio: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+      bio: `I am a ambitious Frontend Developer seeking an opportunity to work with a team that can utilize my ability to produce creative solutions.`,
     },
     {
       id: uuidv4(),
-      bio: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+      bio: "I am dedicated to growth in technology and enjoy learning new languange and Systems.",
     },
+    {
+      id: uuidv4(),
+      bio: "I am proficiend in web development using modern javasctipt Framework such as Vue.js, React.js, Nuxt.js and  Next.js. Addition I know knowledge about Node.js and express.js in Backend Field. Also I am very familiar with UI Framwork such as Tailwind CSS, Material UI, Bootstrap and Styled Component.",
+    },
+    {
+      id: uuidv4(),
+      bio: "I worked with some frontend and backend teams and we used Git, have a clear understanding of their needs and vision of the project.",
+    },
+    {
+      id: uuidv4(),
+      bio: "I have successfully worked with numerous clients of define requirements design new system elements, implement new functionalities and optimize existing systems,",
+    },
+    {
+      id: uuidv4(),
+      bio: "My focus in a work is always writing clean, testable and easy to understand code. Still, I always to learn something new my skills whenever I have the opportunity.",
+    },
+    {
+      id: uuidv4(),
+      bio: "Please feel free to contact me anytime.",
+    },
+    {
+      id: uuidv4(),
+      bio: "Thank for reading untill end.",
+    }
   ],
   copyrightDate: new Date().getFullYear(),
   socialProfiles: [
@@ -760,25 +640,25 @@ export const state = () => ({
       id: uuidv4(),
       name: "GitHub",
       icon: "github",
-      url: "https://github.com/realstoman",
+      url: "https://github.com/lodestar0395",
     },
     {
       id: uuidv4(),
-      name: "Twitter",
-      icon: "twitter",
-      url: "https://twitter.com/realstoman",
+      name: "Discord",
+      icon: "discord",
+      url: "https://discord.gg/xWV47ZfB",
     },
     {
       id: uuidv4(),
-      name: "Medium",
-      icon: "book",
-      url: "https://stoman.medium.com",
+      name: "Skype",
+      icon: "skype",
+      url: "https://join.skype.com/invite/q7dp1qhUd0Qr",
     },
     {
       id: uuidv4(),
-      name: "Instagram",
-      icon: "instagram",
-      url: "https://instagram.com/realstoman",
+      name: "telegram",
+      icon: "telegram",
+      url: "https://t.me/lodestar_0395",
     },
   ],
   categories: [

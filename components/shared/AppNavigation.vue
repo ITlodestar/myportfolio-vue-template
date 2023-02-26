@@ -22,8 +22,8 @@ export default {
       sm:shadow-none
     "
   >
-    <NuxtLink
-      to="/projects"
+  <NuxtLink
+      to="/"
       class="
         block
         text-left text-lg text-primary-dark
@@ -33,6 +33,31 @@ export default {
         sm:mx-4
         mb-2
         sm:py-2
+        border-t-2
+        pt-3
+        sm:pt-2 sm:border-t-0
+        border-primary-light
+        dark:border-secondary-dark
+      "
+      aria-label="Home"
+      >Home</NuxtLink
+    >
+    <NuxtLink
+      to="/projects"
+      class="
+      block
+        text-left text-lg text-primary-dark
+        dark:text-ternary-light
+        hover:text-secondary-dark
+        dark:hover:text-secondary-light
+        sm:mx-4
+        mb-2
+        sm:py-2
+        border-t-2
+        pt-3
+        sm:pt-2 sm:border-t-0
+        border-primary-light
+        dark:border-secondary-dark
       "
       aria-label="Projects"
       >Projects</NuxtLink
@@ -115,4 +140,5 @@ export default {
 #nav .nuxt-link-active {
   @apply text-indigo-700 dark:text-indigo-400;
 }
+
 </style>

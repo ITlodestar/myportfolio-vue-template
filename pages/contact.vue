@@ -8,19 +8,19 @@ export default {
       contacts: [
         {
           id: 1,
-          name: "Your Address, Your City, Your Country",
+          name: "Avenue Road, 1008, Toronto, Canada",
           icon: "map-pin",
         },
         {
           id: 2,
-          name: "email@domain.com",
+          name: "lodestar0905@gmail.com",
           icon: "mail",
         },
-        {
-          id: 3,
-          name: "555 8888 888",
-          icon: "phone",
-        },
+        // {
+        //   id: 3,
+        //   name: "555 8888 888",
+        //   icon: "phone",
+        // },
       ],
     };
   },
